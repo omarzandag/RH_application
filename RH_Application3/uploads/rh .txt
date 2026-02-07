@@ -1,0 +1,21 @@
+rest apis for fonctionnaires info personneles : add , edit , remove , get (/fonctionnaires)
+rest apis for fonctionnaires info administrative : add , edit , get , get by cin (/information-administrative)
+rest apis for fonctionnaire info familliale : add , get , get by cin , edit (/information-administrative)
+rest apis for fonctionnaire info provayance ; add , get by cin , edit by cin (prevoyance-sociale)
+rest apis for formations : add , get by id (/formations)
+REST APIS FOR ADDRESSES : add , edit by cin , get by cin (/adresses) 
+rest apis for affectations : add , edit by cin , get by cin (/affectations)
+rest apis for absences : add , edit by cin , get by cin (/absences)
+rest apis for mouvements : add , edit by cin , get by cin (/mouvements)
+rest apis for diplomes : add , get by id and cin , put by cin and id (/diplomes)
+rest apis for enfants ; add , get by cin parent , put by id (/enfants)
+rest apis for conoints : add, get by cin conjoint & get by cin fonctionnaire (/conjoint)
+
+
+
+
+
+
+give me the controller & service & entity & repository for this sql code 
+
+
