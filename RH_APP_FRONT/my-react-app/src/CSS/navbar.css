@@ -1,0 +1,57 @@
+.navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Position at the very top */
+    left: 0; /* Start from the left edge */
+    width: 100%; /* Full width */
+    background-color: #333;
+    padding: 1rem 0;
+    margin: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .navbar li {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #4CAF50;
+  }
+  
+  .navbar a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4CAF50;
+    transition: width 0.3s ease;
+  }
+  
+  .navbar a:hover::after {
+    width: 100%;
+  }
+  
+  /* Add padding to body to prevent content from being hidden behind navbar */
+  body {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+  }
