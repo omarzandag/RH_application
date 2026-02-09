@@ -54,3 +54,7 @@ cd rh-frontend
 npm install
 npm start
 ```
+
+## 📄 License
+
+This project was developed as part of academic coursework. For collaboration or reuse, please contact the author.
